@@ -25,6 +25,7 @@
   
   .footer ul a:hover {
     opacity:1;
+    text-decoration: underline;
   }
   
   .footer .social {
@@ -48,6 +49,10 @@
   
   .footer .social > a:hover {
     opacity:0.9;
+  }
+
+  .fab:hover{
+    color: white;
   }
   
   .footer .copyright {
