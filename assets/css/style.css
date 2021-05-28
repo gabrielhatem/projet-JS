@@ -1,3 +1,13 @@
+/* avoir le dropdown qui souvent en hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+.prix{
+  font-size: 30px;
+}
+
+/* css pour le footer */
 .footer {
     padding:40px 0;
     background-color:#ffffff;
@@ -25,6 +35,7 @@
   
   .footer ul a:hover {
     opacity:1;
+    text-decoration: underline;
   }
   
   .footer .social {
@@ -48,6 +59,10 @@
   
   .footer .social > a:hover {
     opacity:0.9;
+  }
+
+  .fab:hover{
+    color: white;
   }
   
   .footer .copyright {
