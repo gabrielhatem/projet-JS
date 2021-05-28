@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <script src="https://kit.fontawesome.com/7a72359a2f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
+
+    <title>Chez Tonio - Accueil</title>
+</head>
+
+<body>
+    <!-- Header avec navbar -->
+    <header class="navbar navbar-expand-md bg-dark navbar-dark sticky-top shadow">
+        <nav class="container-fluid flex-wrap">
+            <a class="navbar-brand text-light fst-italic" href="index.html" title="Page d'Accueil"><img
+                    src="assets/img/logoPizza.png" width="70" height="70" alt="Logo" title="logo">Chez Tonio</a>
+
+
+            <!-- Téléphone & horaires pour petits écrans -->
+            <ul class="navbar-nav ms-md-auto d-md-none">
+                <li class="nav-item text-center">
+                    <a class="tel" href="tel:+123456789" title="Numéro de téléphone et heures de contact">Tel: 01 23 45 67 89<br>7j/7 de 10h à 22h</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active text-center">
+                        <a class="btn btn-outline-success rounded mx-2 my-1 text-light p-2" href="index.html"
+                            title="Page d'Accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="menus.html"
+                            title="La Carte de Nos Pizzas">Nos Pizzas</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="btn btn-outline-danger rounded mx-2 my-1 text-light p-2" href="qui-sommes-nous.html"
+                            title="Notre Histoire">Notre Histoire</a>
+                    </li>
+                </ul>
+                <!-- Téléphone & horaires pour moyens et grands écrans -->
+                <ul class="navbar-nav ms-md-auto d-none d-md-inline">
+                    <li class="nav-item text-center">
+                        <a class="tel" href="tel:+123456789" title="Numéro de téléphone et horaires">Tel: 01 23 45 67 89<br>7j/7 de 10h à 22h</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-md-5">
+                    <li class="nav-item text-center">
+                        <a class="btn btn-success rounded mx-2 my-1 text-light p-2" href="qui-sommes-nous.html#Contact"
+                            title="Formulaire de contact">Contactez-nous</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Banner -->
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center"
+                style="background-image:url('assets/img/tomateMozzaBasilicbanner2.jpg'); height: 90vh;">
+                <div class="col-sm-10 text-center">
+                    <h1 class="text-capitalize text-light display-1"><strong>Chez Tonio !</strong></h1>
+                    <h2 class="display-5 text-light mb-5">Des pizzas traditionnelles au feu de bois pour toute la
+                        famille</h2>
+                    <div class="col-sm-12 text-center text-warning display-3 mb-5">
+                        <p><strong>7j/7 de 10h à 22h</strong> <br><strong>Tel: 01 23 45 67 89</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin Banner-->
+
+
+    <!-- bloc carousel -->
+    <div class="container p-5">
+        <h2 class="display-1 text-center mb-5"><strong>Les Pizzas du moment !</strong></h2>
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner shadow">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="flex-row">
+                        <div class="row ">
+                            <div class="col-12 col-md-4 ">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-reine.jpg" alt="pizza reine"
+                                        title="photo d'une pizza reine">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Reine</h2>
+                                        <div class="card-text">Tomates, mozzarella, jambon, champignons, basilic, olives
+                                        </div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-success" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-pepperoni.jpg"
+                                        title="pizza peperoni" alt="photo de pizza peperoni">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Pepperoni</h2>
+                                        <div class="card-text">Tomates, mozzarella, pepperoni</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-outline-dark btn-light" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-poulet.jpg" alt="pizza poulet"
+                                        title="photo d'une pizza au poulet">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Poulet BBQ</h2>
+                                        <div class="card-text">Tomates, poulet, poivrons, sauce barbecue, olives</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-danger" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- fin slide 1 / début slide 2 -->
+                <div class=" carousel-item">
+                    <div class="flex-row">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-dauphine.jpg" title="pizza dauphine"
+                                        alt="photo d'une pizza aux pommes de terres">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Dauphine</h2>
+                                        <div class="card-text">Crème, pommes de terre, chèvre, jambon, champignons,
+                                            basilic
+                                        </div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-success" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-napolitaine.jpg"
+                                        alt="pizza napolitaine" title="photo d'une pizza napolitaine">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Napolitaine</h2>
+                                        <div class="card-text">Tomates, mozzarella, anchois, câpres, olives</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-outline-dark btn-light" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez
+                                                    !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-orientale.jpg" alt="pizza oreintale"
+                                        title="photo d'une pizza orientale">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Orientale</h2>
+                                        <div class="card-text">Tomates, mozzarella, merguez, poivrons, basilic</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-danger" href="tel:+123456789"
+                                                    title="numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin slide 2 / début slide 3 -->
+                <div class="carousel-item">
+                    <div class="flex-row">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/margherita.jpg" alt="pizza margherita"
+                                        title="photo d'une pizza margherita">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Margherita</h2>
+                                        <div class="card-text">Tomates, mozzarella, feuilles de basilic</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-success" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-aubergines.jpg"
+                                        alt="pizza aubergines" title="photo d'une pizza aux aubergines">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Aubergines poivrons</h2>
+                                        <div class="card-text">Tomates, mozzarella, concombres, poivrons,
+                                            champignons,
+                                            olives</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-outline-dark btn-light" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez
+                                                    !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block">
+                                <div class="card shadow">
+                                    <img class="card-img-top" src="assets/img/pizza-chevre-miel.jpg"
+                                        alt="pizza chevre miel">
+                                    <div class="card-body">
+                                        <h2 class="card-title fs-3">Chèvre miel roquette</h2>
+                                        <div class="card-text">Chèvre, roquette, maïs, olives</div>
+                                        <div class="container p-1">
+                                            <div class="row text-center">
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 26cm<br>8 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 33cm<br>12 €</card>
+                                                    </div>
+                                                </div>
+                                                <div class="col p-1">
+                                                    <div class="card">
+                                                        <card class="text">Ø 40cm<br>15 €</card>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <a class="btn btn-danger" href="tel:+123456789"
+                                                    title="Numéro de téléphone">Commandez !</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--Debut About Us Directeur -->
+    <section class="p-5 bg-secondary" id="Expertise">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-lg-flex align-items-center min-vh-25">
+                    <div class="col-md-12 col-lg-7 text-center mx-3">
+                        <h2 class="text-warning display-4 h1">Notre expertise à votre service !</h2>
+                        <p class="lead text-light"> Utiliser un feu de bois est pour vous garantie de qualité.
+                            !
+                        </p>
+                        <p class="lead text-light">Un feu de bois ne permet pas l'usage de fromages industriels. <br>
+                            Chez nous tous nos
+                            fromages
+                            sont de <span class="fw-bold text-uppercase">première qualité.</span></p>
+                        <p class="lead text-light"> Une pâte à pizza préparée tous les matins.
+                        </p>
+                        <p class="lead text-light">La pâte est fraiche, craquante lors de la dégustation.<br> Notre
+                            pizzaiolo utilise une
+                            recette <span class="fw-bold text-uppercase">traditionnelle italienne</span> venant
+                            de sa grand-mamma d'Agnone.</p>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <img src="assets/img/pizzaFlame.jpg" class="img-thumbnail" alt="pizza en train de cuire"
+                            title="photo de pizza devant le foyer d'un four à bois">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin About Us Directeur-->
+
+    <!-- bloc contact -->
+
+    <div class="container-fluid bg-success">
+        <div class="row">
+            <div class="d-lg-flex align-items-center min-vh-25 my-5">
+                <div class="col-12 col-lg-8 text-center lead align-items-center">
+                    <h2 class="display-4"><strong>Chez Tonio<br> 125 allée des Peupliers <br> 12 5411 Nouvelle Ancienne
+                            Nouvelle Orléans <br> France</strong></h2>
+                </div>
+                <div class="col-12 col-lg-4 pt-2 text-center justify-items-center">
+                    <div class="map-responsive align-items-center">
+                        <iframe class="mb-3" title="Localisation de la Pizzeria" width="500" height="300"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=1.4511179924011233%2C47.599659608488395%2C1.464250087738037%2C47.604774168947614&amp;layer=mapnik"
+                            style="border: 1px solid black"></iframe>
+                        <br><a href="https://www.openstreetmap.org/#map=17/47.60222/1.45768&amp;layers=N"
+                            title="Carte en grand écran"
+                            class="text-light font-weight-light font-italic text-capitalize">Afficher
+                            une carte plus grande</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- PARTIE DU FOOTER-->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="text-light text-capitalize font-weight-light p-3 h1">Chez Tonio</h2>
+                    <h3 class="text-light font-weight-light font-italic text-capitalize mb-3"><a href="menus.html"
+                            title="La carte de nos pizzas" class="text-decoration-none text-light">Nos Pizzas</a> - <a
+                            href="qui-sommes-nous.html" title="Notre Histoire"
+                            class="text-decoration-none text-light">Notre Histoire</a> - <a
+                            href="qui-sommes-nous.html#Contact" title="Formulaire de contact"
+                            class="text-decoration-none text-light">Contactez-nous</a> - <a href="mentions.html"
+                            title="Mentions Légales" class="text-decoration-none text-light">Mentions Légales</a></h3>
+                    <div>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook text-light fa-3x mx-3 mb-3"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter text-light fa-3x mx-3 mb-3"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin text-light fa-3x mx-3 mb-3"></i></a>
+                    </div>
+                    <p class="text-light">&copy;Copyright</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
