@@ -80,8 +80,8 @@
   }
   /* logo section Nos partenaires*/
   .sponsor{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 20% 35%;
   }
   /* pictogramme section services*/
@@ -90,5 +90,4 @@
     height: 50px;
     margin-left:40%;
     margin-bottom: 15%;
-
   }
