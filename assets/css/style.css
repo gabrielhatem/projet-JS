@@ -3,6 +3,41 @@
   display: block;
   margin-top: 0; 
 }
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+/* gerer les media queries */
+@media (min-width: 768px) and (max-width: 908px) {
+  .card-img-top {
+  width: 75%;
+  float: center;
+  height: 15vw;
+  object-fit: cover;
+      
+  }
+ }
+@media (min-width: 576px) and (max-width: 768px) {
+  .card-img-top {
+  width: 60%;
+  float: center;
+  height: 20vw;
+  object-fit: cover;
+      
+  }
+ }
+ @media (max-width: 576px){
+  .card-img-top {
+  width: 40%;
+  height: 25vw;
+  object-fit: cover;
+
+  }
+ }
+
+
 .prix{
   font-size: 30px;
 }
@@ -10,7 +45,7 @@
 /* css pour le footer */
 .footer {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color:#faf6f6;
     color:#4b4c4d;
   }
   
@@ -72,6 +107,7 @@
     color:#aaa;
     margin-bottom:0;
   }
+
   /* pictogramme section Notre expertise*/
   .picto{
     width: 100px;
@@ -80,8 +116,8 @@
   }
   /* logo section Nos partenaires*/
   .sponsor{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 20% 35%;
   }
   /* pictogramme section services*/
