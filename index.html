@@ -33,8 +33,12 @@
                       <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="index.html"
                           title="Page d'Accueil">Accueil</a>
                   </li>
+                  <li class="nav-item text-center">
+                    <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="#expertise"
+                        title="Notre Expertise">Notre Expertise</a>
+                </li>
                   <li class="nav-item dropdown text-center">
-                    <a class="nav-item dropdown-toggle btn btn-outline-light rounded mx-2 my-1 p-2" href="#produits"
+                    <a class="nav-item dropdown-toggle btn btn-outline-light rounded mx-2 my-1 p-2" href="#products"
                       id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Nos produits
                     </a>
@@ -46,24 +50,45 @@
                     </ul>
                   </li>
                   <li class="nav-item text-center">
-                    <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="#expertise"
-                        title="Notre Expertise">Notre Expertise</a>
-                </li>
-                  <li class="nav-item text-center">
                       <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="#team"
                           title="Team">Notre équipe</a>
                   </li>
               </ul>
               <ul class="navbar-nav ms-md-auto">
                   <li class="nav-item text-center">
-                      <a class="btn btn-outline-light rounded mx-2 my-1 p-2" href="#cart"
-                          title="Panier">Panier <i class="fas fa-shopping-cart"></i></a>
+                      <!-- Button trigger modal -->
+                    <a class="btn btn-outline-light rounded mx-2 my-1 p-2" id="cartItem" href="#cart"
+                    title="Panier" data-bs-toggle="modal" data-bs-target="#exampleModal">Panier <i class="fas fa-shopping-cart"></i></a>
                   </li>
               </ul>
           </div>
       </nav>
   </header>
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Votre Panier</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-12 col-md-3" id="image">photo</div>
+            <div class="col-sm-12 col-md-3" id="description">description</div>
+            <div class="col-sm-12 col-md-2" id="ref">ref</div>
+            <div class="col-sm-12 col-md-2" id="quantity"><i class="fas fa-minus col-sm-12 col-md-2" id="minus"></i> 0 <i class="fas fa-plus col-sm-12 col-md-2" id="plus"></i></div>
+             <div class="col-sm-12 col-md-2" id="product.price">0€</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Accueil Carousel -->
   <section>
@@ -116,7 +141,7 @@
   </section>
 
   <!-- Notre expertise -->
-  <section>
+  <section id="expertise">
     <div class="container-fluid">
       <div class="row">
         <h2 class="text-center text-decoration-underline my-4 display-2 mb-5">Notre Expertise</h2>
@@ -164,14 +189,15 @@
 
   <!-- Nos produits -->
   <section id="products">
-    <div class="container-fluid p-3" style="position: relative;">
-      <div class="row ">
+    <div class="container-fluid" style="position: relative;">
+      <div class="row">
         <div class="col-12">
+          <h2 class="text-center text-decoration-underline my-4 display-2 mb-5 mt-5 text-dark">Nos Produits</h2>
           <div class="card">
-            <div class="card-header  text-center align-self-center align-items-centers">
-              <ul class="nav nav-tabs card-header-tabs" id="categories" role="tablist">
+            <div class=" text-center align-self-center align-items-centers">
+              <ul class="nav" id="categories">
                 <li class="nav-item">
-                  <a class="btn btn-default filter-button" data-filter="allProducts" id="allProducts"
+                  <a class="btn btn-default filter-button display-2 " data-filter="allProducts" id="allProducts"
                     href="#allProducts" role="tab" aria-controls="allProducts" aria-selected="true">Tous nos
                     Produits</a>
                 </li>
@@ -204,7 +230,7 @@
   <section>
     <div class="container-fluid" id="team">
       <div class="row bg-primary px-5 pb-3 pb-4">
-        <h2 class="text-center text-light display-2 p-2" style="text-decoration: underline;">Une équipe à vos côtés
+        <h2 class="text-center text-light display-2 p-2 mb-4" style="text-decoration: underline;">Une équipe à vos côtés
         </h2>
         <div class="col-lg-5">
           <img src="assets/img/equipe.jpg" style="width: 100%; border-radius: 1rem;" alt="photo de l'equipe"

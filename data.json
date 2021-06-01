@@ -1,31 +1,32 @@
 {
     "products":[ 
- 
      {
          "id":"1",
          "name":"Asus Rogue Lite",
          "image":"pcasus.png",
          "price":"899,00 €",
          "description":{
-             "ligne1":"Ecran Liquid Retina 11pixels",
+             "ligne1":"Ecran Liquid Retina 11 pouces",
              "ligne2":"Capacite 128 Go - Wifi 802.11 ax - Bluetooth",
              "ligne3":"8 Go de RAM",
              "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARL"
              },
          "categorie":"PC Portable"
     },
      {
-         "id":"5",
+         "id":"2",
          "name":"Asus Rogue Medium",
          "image":"pcasus.png",
-         "price":" 999,00 €",
+         "price":"999,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13 pixels",
+             "ligne1":"Écran Liquid Retina 13 pouces",
              "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
              "ligne3":"16 Go de RAM",
              "ligne4":"Jusqu'à 15 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARM"
          },
          "categorie":"PC Portable"
      },
@@ -35,97 +36,103 @@
          "image":"pcasus.png",
          "price":"1299,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 15 pixels",
+             "ligne1":"Écran Liquid Retina 15 pouces",
              "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
              "ligne3":"32 Go de RAM",
              "ligne4":"Jusqu'à 20 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARP"
          },
          "categorie":"PC Portable"
      },
      {
-         "id":"4",
+        "id":"4",
+        "name":"Asus Rogue Predator",
+        "image":"pcasus.png",
+        "price":"1699,00 €",
+        "description":{
+            "ligne1":"Écran Liquid Retina 18 pouces",
+            "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"32 Go de RAM",
+            "ligne4":"Jusqu'à 30 h d'autonomie",
+            "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+            "ligne6":"Ref : F2015854ARPRED"
+        },
+        "categorie":"PC Portable"
+    },
+     {
+         "id":"5",
          "name":"Lenovo IdeaPad 4",
-         "image":"pclenovo.png",
+         "image":"pclenovo.jpg",
          "price":" 699,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
+             "ligne1":"Écran Liquid Retina 13 pouces",
              "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
              "ligne3":"8 Go de RAM",
              "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F201585LID4"
          },
          "categorie":"PC Portable"
      },
      {
-         "id":"2",
-         "name":"Lenovo IdeaPad 5 Pro",
-         "image":"pclenovo.png",
-         "price":"1099,00 €",
-         "description":{
-             "ligne1":"Écran Liquid Retina 18 pixels",
-             "ligne2":"Capacité 512 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"16 Go de RAM",
-             "ligne4":"Jusqu'à 20 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"PC Portable"
-     },
-     {
-         "id":"6",
-         "name":"Lenovo IdeaPad 5",
-         "image":"pcasus.png",
-         "price":"899,00 €",
-         "description":{
-             "ligne1":"Écran Liquid Retina 15pixels",
-             "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Jusqu'à 15 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"PC Portable"
-     },
+        "id":"6",
+        "name":"Lenovo IdeaPad 5",
+        "image":"pclenovo.jpg",
+        "price":"899,00 €",
+        "description":{
+            "ligne1":"Écran Liquid Retina 15 pouces",
+            "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"8 Go de RAM",
+            "ligne4":"Jusqu'à 15 h d'autonomie",
+            "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+            "ligne6":"Ref : F201585LID5"
+        },
+        "categorie":"PC Portable"
+    },
      {
          "id":"7",
-         "name":"Asus Rogue Predator",
-         "image":"pcasus.png",
-         "price":"1699,00 €",
+         "name":"Lenovo IdeaPad 5",
+         "image":"pclenovo.jpg",
+         "price":"899,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 18 pixels",
-             "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
-             "ligne4":"Jusqu'à 30 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"PC Portable"
-     },
-     {
-         "id":"8",
-         "name":"HP M03-F10",
-         "image":"pcasus.png",
-         "price":"769,00 €",
-         "description":{
-             "ligne1":"Intel Core i5 3.8 GHz",
+             "ligne1":"Écran Liquid Retina 15 pouces",
              "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
              "ligne3":"16 Go de RAM",
              "ligne4":"Intel UHD Graphics",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F201585LID5P"
          },
          "categorie":"PC Portable"
      },
      {
+        "id":"8",
+        "name":"Lenovo IdeaPad 5 Pro",
+        "image":"pclenovo.jpg",
+        "price":"1099,00 €",
+        "description":{
+            "ligne1":"Écran Liquid Retina 18 pixels",
+            "ligne2":"Capacité 512 Go - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"32 Go de RAM",
+            "ligne4":"Jusqu'à 25 h d'autonomie",
+            "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+            "ligne6":"Ref : F201585LID5P"
+        },
+        "categorie":"PC Portable"
+    },
+     {
          "id":"9",
-         "name":"",
-         "image":"",
-         "price":"",
+         "name":"MSI Trident IX 9 TD",
+         "image":"pcgaming.png",
+         "price":"2599,00 €",
          "description":{
-             "ligne1":"",
-             "ligne2":"",
-             "ligne3":"",
-             "ligne4":"",
-             "ligne5":""
+            "ligne1":"Intel Core i5 3.8 GHz",
+            "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"32 Go de RAM",
+            "ligne4":"NVidia GeForce RTX 3050",
+            "ligne5":"Ref : F20158MSITIX9"
          },
-         "categorie":"Accessoire"
+         "categorie":"PC de jeux"
      },
      {
          "id":"10",
@@ -137,77 +144,80 @@
              "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
              "ligne3":"32 Go de RAM",
              "ligne4":"NVidia GeForce RTX 3050",
-             "ligne5":""
+             "ligne5":"Ref : F20158MSITIX9"
          },
-         "categorie":"Ordinateur Professionnel"
+         "categorie":"PC de jeux"
      },
      {
          "id":"11",
-         "name":"Asus Rogue Lite",
-         "image":"pcasus.png",
-         "price":"899,00 €",
+         "name":"MSI Trident X 9 TD",
+         "image":"pcgaming.png",
+         "price":"3099,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 11 pixels",
-             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR"
+             "ligne1":"Intel Core i7 3.8 GHz",
+             "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+             "ligne3":"32 Go de RAM",
+             "ligne4":"NVidia GeForce RTX 3060",
+             "ligne5":"Ref : F20158MSITX9"
          },
          "categorie":"PC de jeux"
      },
      {
          "id":"12",
-         "name":"Asus Rogue Medium",
-         "image":"pcasus.png",
+         "name":"MSI Trident X 10 TD",
+         "image":"pcgaming.png",
          "price":" 999,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13 pixels",
-             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"16 Go de RAM",
-             "ligne4":"Jusqu'à 15 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR"
+            "ligne1":"Intel Core i7 3.8 GHz",
+            "ligne2":"Capacité 2 To - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"64 Go de RAM",
+            "ligne4":"NVidia GeForce RTX 3080",
+            "ligne5":"Ref : F20158MSITX10"
          },
          "categorie":"PC de jeux"
      },
      {
          "id":"13",
-         "name":"Asus Rogue Pro",
+         "name":"Asus Rogue Lite",
          "image":"pcasus.png",
-         "price":"1299,00 €",
+         "price":"899,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 15 pixels",
-             "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
-             "ligne4":"Jusqu'à 20 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
+             "ligne1":"Ecran Liquid Retina 11 pouces",
+             "ligne2":"Capacite 128 Go - Wifi 802.11 ax - Bluetooth",
+             "ligne3":"8 Go de RAM",
+             "ligne4":"Jusqu'à 10 h d'autonomie",
+             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARL"
+             },
          "categorie":"PC de jeux"
      },
      {
          "id":"14",
-         "name":"MSI Trident IX 10 TD",
-         "image":"msigamer.png",
-         "price":"2899,00 €",
+         "name":"Asus Rogue Medium",
+         "image":"pcasus.png",
+         "price":"999,00 €",
          "description":{
-             "ligne1":"Intel Core i5 3.8 GHz",
-             "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
-             "ligne4":" NVidia GeForce RTX 3050",
-             "ligne5":""
+             "ligne1":"Écran Liquid Retina 13 pouces",
+             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
+             "ligne3":"16 Go de RAM",
+             "ligne4":"Jusqu'à 15 h d'autonomie",
+             "ligne5":"Double appareil photo 10 + 12 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARM"
          },
          "categorie":"PC de jeux"
      },
      {
          "id":"15",
-         "name":"MSI Trident X 10 TD",
-         "image":"msigamer.png",
-         "price":"3299,00 ",
+         "name":"Asus Rogue Pro",
+         "image":"pcasus.png",
+         "price":"1299,00 €",
          "description":{
-             "ligne1":"Intel Core i7 3.8 GHz",
-             "ligne2":"Capacité 2 To - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"64 Go de RAM",
-             "ligne4":"NVidia GeForce RTX 3080",
-             "ligne5":""
+             "ligne1":"Écran Liquid Retina 15 pouces",
+             "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
+             "ligne3":"32 Go de RAM",
+             "ligne4":"Jusqu'à 20 h d'autonomie",
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARP"
          },
          "categorie":"PC de jeux"
      },
@@ -217,185 +227,159 @@
          "image":"pcasus.png",
          "price":"1699,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 18 pixels",
-             "ligne2":" Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+             "ligne1":"Écran Liquid Retina 18 pouces",
+             "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
              "ligne3":"32 Go de RAM",
              "ligne4":"Jusqu'à 30 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F2015854ARPRED"
          },
          "categorie":"PC de jeux"
      },
      {
          "id":"17",
-         "name":"MSI Trident IX 9 TD",
-         "image":"msigamer.png",
-         "price":"2599,00 €",
+         "name":"HP M01-F10",
+         "image":"ordinateur.jpg",
+         "price":"529,00 €",
          "description":{
-             "ligne1":"Intel Core i5 3.8 GHz",
+             "ligne1":"Intel Core i3 3.6 GHz",
              "ligne2":"Capacité 512 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"16 Go de RAM",
-             "ligne4":"Jusqu'à 30 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels"
+             "ligne3":"8 Go de RAM",
+             "ligne4":"Intel UHD Graphics",
+             "ligne5":"Ref : F2015HPM01F10"
          },
-         "categorie":"PC de jeux"
+         "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"18",
-         "name":"HP M05-F10",
-         "image":"ordinateur.png",
-         "price":"929,00 €",
+         "name":"HP M02-F10",
+         "image":"ordinateur.jpg",
+         "price":"629,00 €",
          "description":{
-             "ligne1":"Intel Core i7 3.8 GHz",
-             "ligne2":" Capacité 2 To - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
-             "ligne4":"Intel UHD Graphics",
-             "ligne5":"Jusqu'à 30 h d'autonomie"
+            "ligne1":"Intel Core i3 3.6 GHz",
+            "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"8 Go de RAM",
+            "ligne4":"Intel UHD Graphics",
+            "ligne5":"Ref : F2015HPM02F10"
          },
          "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"19",
-         "name":"HP M05-F10",
-         "image":"ordinateur.png",
-         "price":"929,00 €",
+         "name":"HP M03-F10",
+         "image":"ordinateur.jpg",
+         "price":"769,00 €",
          "description":{
-             "ligne1":"Intel Core i7 3.8 GHz",
-             "ligne2":"Capacité 2 To - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
+             "ligne1":"Intel Core i5 3.8 GHz",
+             "ligne2":"Capacité 1 To - Wifi 802.11 ax - Bluetooth",
+             "ligne3":"16 Go de RAM",
              "ligne4":"Intel UHD Graphics",
-             "ligne5":"Jusqu'à 30 h d'autonomie"
+             "ligne5":"Ref : F2015HPM03F10"
          },
-         "categorie":"PC de jeux"
+         "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"20",
-         "name":"HP M01-F10",
-         "image":"ordinateur.png",
-         "price":" 529,00 €",
+         "name":"HP M0-F10",
+         "image":"ordinateur.jpg",
+         "price":" 929,00 €",
          "description":{
-             "ligne1":"Intel Core i3 3.6 GHz",
-             "ligne2":"Capacité 512 Go ",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Intel UHD Graphics",
-             "ligne5":" Wifi 802.11 ax - Bluetooth"
+            "ligne1":"Intel Core i7 3.8 GHz",
+            "ligne2":"Capacité 2 To - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"16 Go de RAM",
+            "ligne4":"Intel UHD Graphics",
+            "ligne5":"Ref : F2015HPM05F10"
          },
-         "categorie":"PC de jeux"
+         "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"21",
          "name":"Lenovo IdeaPad 4",
-         "image":"pclenovo.png",
-         "price":" 699,00 €",
+         "image":"pclenovo.jpg",
+         "price":"699,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
-             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+            "ligne1":"Écran Liquid Retina 13 pouces",
+            "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
+            "ligne3":"8 Go de RAM",
+            "ligne4":"Jusqu'à 10 h d'autonomie",
+            "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+            "ligne6":"Ref : F201585LID4"
          },
          "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"22",
-         "name":"MSI Trident IX 9 TD",
-         "image":"pcgaming.png",
-         "price":"2599,00 €",
+         "name":"Lenovo IdeaPad 5",
+         "image":"pclenovo.jpg",
+         "price":" 799,00 €",
          "description":{
-             "ligne1":"Intel Core i5 3.8 GHz",
+             "ligne1":"Écran Liquid Retina 13 pouces",
              "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"16 Go de RAM",
+             "ligne3":"8 Go de RAM",
              "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":" Scanner LiDAR"
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F201585LID5"
          },
          "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"23",
-         "name":"Lenovo IdeaPad 5",
-         "image":"pclenovo.png",
-         "price":"899,00 €",
+         "name":"Lenovo IdeaPad 5 Pro",
+         "image":"pclenovo.jpg",
+         "price":" 799,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
-             "ligne2":"Capacité 256 Go - Wifi 802.11 ax - Bluetooth",
+             "ligne1":"Écran Liquid Retina 13 pouces",
+             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
              "ligne3":"8 Go de RAM",
-             "ligne4":"Jusqu'à 15 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne4":"Jusqu'à 10 h d'autonomie",
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F201585LID5"
          },
          "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"24",
-         "name":"MSI Trident IX 10 TD",
-         "image":"pcgaming.png",
-         "price":"2899,00 €",
+         "name":"Lenovo IdeaPad 6",
+         "image":"pclenovo.jpg",
+         "price":" 799,00 €",
          "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
+             "ligne1":"Écran Liquid Retina 13 pouces",
              "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"32 Go de RAM",
-             "ligne4":"NVidia GeForce RTX 3050",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
+             "ligne3":"8 Go de RAM",
+             "ligne4":"Jusqu'à 10 h d'autonomie",
+             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR",
+             "ligne6":"Ref : F201585LID5"
          },
          "categorie":"Ordinateur Professionnel"
      },
      {
          "id":"25",
-         "name":"Lenovo IdeaPad 5 Pro",
-         "image":"pclenovo.png",
-         "price":"1099,00 €",
-         "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
-             "ligne2":"Capacité 512 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM16 Go de RAM",
-             "ligne4":"Jusqu'à 20 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"Ordinateur Professionnel"
-     },
-     {
-         "id":"26",
-         "name":"HP M01-F10",
-         "image":"ordinateur.png",
-         "price":" 529,00 €",
-         "description":{
-             "ligne1":"Intel Core i3 3.6 GHz",
-             "ligne2":"Capacité 512 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Intel UHD Graphics",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"Ordinateur Professionnel"
-     },
-     {
-         "id":"27",
-         "name":"MSI Trident X 10 TD",
-         "image":"pcgaming.png",
-         "price":"3299,00 ",
-         "description":{
-             "ligne1":"Écran Liquid Retina 13pixels",
-             "ligne2":"Capacité 128 Go - Wifi 802.11 ax - Bluetooth",
-             "ligne3":"8 Go de RAM",
-             "ligne4":"Jusqu'à 10 h d'autonomie",
-             "ligne5":"Double appareil photo 10 + 20 Mpixels – Scanner LiDAR"
-         },
-         "categorie":"Ordinateur Professionnel"
-     },
-     {
-         "id":"28",
          "name":"Souris Gaming Logitech G502",
          "image":"mouse.png",
          "price":"59,99 €",
          "description":{
              "ligne1":"Résolution 16000 dpi",
              "ligne2":"Boutons programmables : 11",
-             "ligne3":"Poids ",
-             "ligne4":" ",
-             "ligne5":"  "
- 
+             "ligne3":"Poids : 200 g",
+             "ligne6":"Ref : F2015LTMG502"
          },
          "categorie":"Accessoire"
      },
      {
-         "id":"29",
+         "id":"26",
+         "name":"Souris Gaming Logitech G502 Hero",
+         "image":"mouse.png",
+         "price":"59,99 €",
+         "description":{
+             "ligne1":"Résolution 16000 dpi",
+             "ligne2":"Boutons programmables : 11",
+             "ligne3":"Poids : 200 g",
+             "ligne6":"Ref : F2015LTMG502H"
+         },
+         "categorie":"Accessoire"
+     },
+     {
+         "id":"27",
          "name":"Clavier + Souris The g-Lab",
          "image":"gaming.png",
          "price":"39,99€ ",
@@ -409,45 +393,71 @@
          "categorie":"Accessoire"
      },
      {
-         "id":"30",
-         "name":"",
-         "image":"",
-         "price":"",
+         "id":"28",
+         "name":"Micro-Casque Gaming Logitech G935",
+         "image":"mouse.png",
+         "price":"129,99 €",
          "description":{
-             "ligne1":"Filaire",
-             "ligne2":"Rétroéclairé",
-             "ligne3":"Coloris : Noir",
-             "ligne4":"Frappe silencieuse : Non",
-             "ligne5":"Rétroéclairé : Oui"
+             "ligne1":"Casque Stéréo 7.1",
+             "ligne2":"Wireless - Bluetooth",
+             "ligne3":"Réponse micro : 100 Hz - 10 kHz",
+             "ligne4":"Ref : F2015LTHSG935"
+ 
          },
          "categorie":"Accessoire"
      },
      {
-         "id":"31",
-         "name":"",
-         "image":"",
-         "price":"",
-         "description":{
-             "ligne1":"Filaire",
-             "ligne2":"Rétroéclairé",
-             "ligne3":"Coloris : Noir",
-             "ligne4":"Frappe silencieuse : Non",
-             "ligne5":"Rétroéclairé : Oui"
-         },
-         "categorie":"Accessoire"
-     },
-     {
-         "id":"32",
-         "name":"",
-         "image":"",
-         "price":"",
-         "description":{
-             "ligne1":"Filaire",
-             "ligne2":"Rétroéclairé",
-             "ligne3":"Coloris : Noir",
-             "ligne4":"Frappe silencieuse : Non",
-             "ligne5":"Rétroéclairé : Oui"
-         },
-         "categorie":"Accessoire"
-     }
+        "id":"25",
+        "name":"Souris Gaming Logitech G502",
+        "image":"mouse.png",
+        "price":"59,99 €",
+        "description":{
+            "ligne1":"Résolution 16000 dpi",
+            "ligne2":"Boutons programmables : 11",
+            "ligne3":"Poids : 200 g",
+            "ligne6":"Ref : F2015LTMG502"
+        },
+        "categorie":"Accessoire"
+    },
+    {
+        "id":"26",
+        "name":"Souris Gaming Logitech G502 Hero",
+        "image":"mouse.png",
+        "price":"59,99 €",
+        "description":{
+            "ligne1":"Résolution 16000 dpi",
+            "ligne2":"Boutons programmables : 11",
+            "ligne3":"Poids : 200 g",
+            "ligne6":"Ref : F2015LTMG502H"
+        },
+        "categorie":"Accessoire"
+    },
+    {
+        "id":"27",
+        "name":"Clavier + Souris The g-Lab",
+        "image":"gaming.png",
+        "price":"39,99€ ",
+        "description":{
+            "ligne1":"Filaire",
+            "ligne2":"Rétroéclairé",
+            "ligne3":"Coloris : Noir",
+            "ligne4":"Frappe silencieuse : Non",
+            "ligne5":"Rétroéclairé : Oui"
+        },
+        "categorie":"Accessoire"
+    },
+    {
+        "id":"28",
+        "name":"Micro-Casque Gaming Logitech G935",
+        "image":"mouse.png",
+        "price":"129,99 €",
+        "description":{
+            "ligne1":"Casque Stéréo 7.1",
+            "ligne2":"Wireless - Bluetooth",
+            "ligne3":"Réponse micro : 100 Hz - 10 kHz",
+            "ligne4":"Ref : F2015LTHSG935"
+
+        },
+        "categorie":"Accessoire"
+    }
  ]}

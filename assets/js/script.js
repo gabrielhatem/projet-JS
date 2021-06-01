@@ -1,4 +1,4 @@
-const myList = document.querySelector(' div .produits');
+const myList = document.querySelector('div.produits');
 
 const myRequest = new Request('data.json');
 fetch(myRequest)
@@ -56,6 +56,7 @@ fetch(myRequest)
           <li>${product.description.ligne3}</li>
           <li>${product.description.ligne4}</li>
           <li>${product.description.ligne5}</li>
+          <li>${product.description.ligne6}</li>
       </ul>
   </div>
       <div class="clearfix mb-3 prix text-center"> <span
@@ -112,7 +113,7 @@ function displayCart() {
       <td>${product.image}</td>
       <td>${product.name}</td>
       <td>${product.price}</td>
-      <td>${product.description.ligne1}</td>`
+      <td>${product.description.ligne2}</td>`
       output.appendChild(item);
     }
 

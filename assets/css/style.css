@@ -128,3 +128,14 @@
     margin-bottom: 15%;
 
   }
+  #products .btn{
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #products .btn:hover{
+    font-weight: bold;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: underline;
+  }
